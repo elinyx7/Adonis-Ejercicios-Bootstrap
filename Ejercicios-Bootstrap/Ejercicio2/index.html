@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ejercicio blog</title>
+  <!--Incluir librerias bootstrap-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+</head>
+<style>
+  .nope {
+    background: url(img/imagen1.jpg);
+    width: 1000px;
+    height: 300px;
+    background-size: cover;
+    /* Ajusta la imagen para cubrir todo el fondo */
+    color: white;
+    /* Color del texto */
+    text-align: left;
+    /* Alinea el texto al centro */
+
+  }
+</style>
+
+<body>
+
+  <header class="blog-header lh-1 py-3">
+    <div class="row flex-nowrap justify-content-between align-items-center">
+      <div class="col-4 pt-1">
+        <a class="link-secondary" href="#"><u>Subscribe</u></a>
+      </div>
+      <div class="col-4 text-center">
+        <a class="blog-header-logo text-dark" href="#"><u>Cocina Fácil</u></a>
+
+      </div>
+      <div class="col-4 d-flex justify-content-end align-items-center">
+        <a class="link-secondary" href="#" aria-label="Search">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor"
+            stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="mx-3" role="img" viewBox="0 0 24 24">
+            <title>Search</title>
+            <circle cx="10.5" cy="10.5" r="7.5" />
+            <path d="M21 21l-5.2-5.2" />
+          </svg>
+        </a>
+        <a class="btn btn-sm btn-outline-secondary" href="#">Sign up</a>
+      </div>
+    </div>
+  </header>
+
+  <div class="nav-scroller py-1 mb-2">
+    <nav class="nav d-flex justify-content-between">
+      <a class="p-2 link-secondary" href="#"><u>Pescados y Mariscos</u></a>
+      <a class="p-2 link-secondary" href="#"><u>Recetas de Carne</u></a>
+      <a class="p-2 link-secondary" href="#"><u>Cócteles y bebidas</u></a>
+      <a class="p-2 link-secondary" href="#"><u>Postres</u></a>
+      <a class="p-2 link-secondary" href="#"><u>Recetas de Pasta</u></a>
+      <a class="p-2 link-secondary" href="#"><u>Ensaladas</u></a>
+      <a class="p-2 link-secondary" href="#"><u>Mariscos</u></a>
+      <a class="p-2 link-secondary" href="#"><u>Pan y bollería</u></a>
+      <a class="p-2 link-secondary" href="#"><u>Recetas de Verduras</u></a>
+
+    </nav>
+  </div>
+  </div>
+
+  <main class="container">
+    <div class="p-4 p-md-5 mb-4 rounded text-bg-dark">
+      <div class="col-md-6 px-0">
+        <div class="nope">
+          <br>
+          <br>
+          <br>
+          <h1 class="display-4 fst-italic">Recetas de Cocina</h1>
+          <p class="lead my-3">Comida Deliciosa !Fácil de Preparar!</p>
+          <p class="lead mb-0"><a href="#ver" class="text-white fw-bold"><u>Aprende Mas</u></a></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="row mb-2">
+      <div class="col-md-6">
+        <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+          <div class="col p-4 d-flex flex-column position-static">
+            <strong class="d-inline-block mb-2 text-primary">Receta de Carne</strong>
+            <h3 class="mb-0">LOMO DE CERDO AL CHIRRI</h3>
+            <div class="mb-1 text-muted">Nov 12</div>
+            <p class="card-text mb-auto">SE dora el lomo entero en una cazuela con el aceite de oliva. Cuando está
+              dorado se aliña con el ajo, perejil, orégano, 2 clavos, pimienta molida y un poco de pimentón dulce.</p>
+            <a href="#ver1" class="stretched-link"><u>Leer mas</u></a>
+          </div>
+          <div class="col-auto d-none d-lg-block">
+            <img src="https://img-global.cpcdn.com/recipes/c674983c4dc431b6/1200x630cq70/photo.jpg" alt="" width="200"
+              height="250" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice"
+              focusable="false">
+            <title>Placeholder</title>
+            <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef"
+              dy=".3em"></text></img>
+
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+          <div class="col p-4 d-flex flex-column position-static">
+            <strong class="d-inline-block mb-2 text-success">Receta de Verduras</strong>
+            <h3 class="mb-0">TORTILLA DE ESPINACAS</h3>
+            <div class="mb-1 text-muted">Nov 11</div>
+            <p class="mb-auto">Se cuecen las espinacas y aparte se sofríe la cebolla con los dátiles y los piñones
+              añadiendo posteriormente las espinacas luego batimos los huevos y se cuaja la tortilla con una pizca de
+              sal.</p>
+            <a href="#ver2" class="stretched-link"><u>Leer mas</u></a>
+          </div>
+          <div class="col-auto d-none d-lg-block">
+            <img
+              src="https://e00-xlk-cooking-elmundo.uecdn.es/files/gallery_image_mobile_cover/uploads/2023/02/28/63fe6758710c1.jpeg"
+              alt="" width="200" height="250" role="img" aria-label="Placeholder: Thumbnail"
+              preserveAspectRatio="xMidYMid slice" focusable="false">
+            <title>Placeholder</title>
+            <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef"
+              dy=".3em"></text></img>
+
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+          <div class="col p-4 d-flex flex-column position-static">
+            <strong class="d-inline-block mb-2 text-success">Receta de Verduras</strong>
+            <h3 class="mb-0">AJILI-MÓJILI</h3>
+            <div class="mb-1 text-muted">Nov 11</div>
+            <p class="mb-auto">Se cuecen las patatas cortadas a rodajas junto a los pimientos. En un mortero se machacan
+              los ajos, sal y un poco de orégano. Se trituran las patatas y los pimientos sin piel y se le añade el
+              aliño labrándolo con aceite de oliva.</p>
+            <a href="#ver3" class="stretched-link"><u>Leer mas</u></a>
+          </div>
+          <div class="col-auto d-none d-lg-block">
+            <img src="https://cocinaandaluza.es/wp-content/uploads/2015/11/receta-ajilimojili.jpg" alt="" width="200"
+              height="250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
+              preserveAspectRatio="xMidYMid slice" focusable="false">
+            <title>Placeholder</title>
+            <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef"
+              dy=".3em"></text></img>
+
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+          <div class="col p-4 d-flex flex-column position-static">
+            <strong class="d-inline-block mb-2 text-success">Receta de Verduras</strong>
+            <h3 class="mb-0">SALMOREJO</h3>
+            <div class="mb-1 text-muted">Nov 11</div>
+            <p class="mb-auto">Se moja el pan y se pelan los tomates y los ajos batiéndolo todo junto a un chorreón de
+              aceite consiguiendo un triturado suave y le añadimos la sal. Cocemos los huevos y se cortan en taquitos
+              junto al jamón y lo añadimos.</p>
+            <a href="#ver4" class="stretched-link"><u>Leer mas</u></a>
+          </div>
+          <div class="col-auto d-none d-lg-block">
+            <img src="https://img2.rtve.es/v/6103737?w=1600&preview=1632225158865.jpg" alt="" width="200" height="250"
+              role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+            <title>Placeholder</title>
+            <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef"
+              dy=".3em"></text></img>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row g-5">
+      <div class="col-md-8">
+        <h2 class="pb-4 mb-4 fst-italic border-bottom">
+          Receta destacada
+        </h2>
+
+        <article class="blog-post">
+          <h3 id="ver">GACHAS DE MAGINA</h3>
+          <p class="blog-post-meta">January 1, 2021 by <a href="#">Mark</a></p>
+          <h4 class="blog-post-title mb-1">INGREDIENTES:</h4>
+          <br>
+          <ul>
+            <li>Matalahúga</li>
+            <li>Leche</li>
+            <li>Azúcar</li>
+            <li>Canela en polvo</li>
+            <li>Anís</li>
+            <li>Harina</li>
+            <li>Sal</li>
+            <li>Pan</li>
+            <li>Aceite de oliva</li>
+
+          </ul>
+          <p>
+            Se desahúma el aceite con la matalahúva. A continuación se cuela el aceite, y se fríen unos trocitos de pan.
+            Se apartan los tostones y al aceite se le añaden la harina, la leche, un chorreón de anís y una pizca de
+            sal. Se remueve todo bien hasta que no queden grumos.
+          </p>
+          <p>
+            Dejar hervir durante 10 ó 15 minutos.
+            Por último vaciar las gachas en una fuente y a continuación se le añade por encima azúcar mezclada con
+            canela en polvo y un chorreón de leche y anís.
+          </p>
+          <br>
+          <br>
+
+          <h2 id="ver1">LOMO DE CERDO AL CHIRRI.</h2>
+          <p class="blog-post-meta">January 1, 2021 by <a href="#">Mark</a></p>
+          <h4 class="blog-post-title mb-1">INGREDIENTES:</h4>
+          <br>
+          <ul>
+            <li>Lomo de cerdo</li>
+            <li>Aceite de oliva</li>
+            <li>Vino blanco</li>
+            <li>Ajo</li>
+            <li>Perejil</li>
+            <li>Clavo</li>
+            <li>Orégano</li>
+            <li>Pimentón</li>
+            <li>Pimienta</li>
+          </ul>
+          <br>
+          <h4>ELABORACIÓN.</h4>
+          <br>
+          <p>
+            SE dora el lomo entero en una cazuela con el aceite de oliva. Cuando está dorado se aliña con el ajo,
+            perejil, orégano, 2 clavos, pimienta molida y un poco de pimentón dulce.
+          </p>
+          <p>
+            Se cubre todo con vino blanco y agua a partes iguales, y se pone a hervir hasta que esté tierno. Se deja
+            enfriar y se corta en láminas finas sirviendo con su salsa o bien con una rociada de aceite de oliva y
+            pimentón.
+          </p>
+          <br>
+          <h2 id="ver2">TORTILLA DE ESPINACAS Y PIÑONES</h2>
+          <p class="blog-post-meta">January 1, 2021 by <a href="#">Mark</a></p>
+          <h4 class="blog-post-title mb-1">INGREDIENTES:</h4>
+          <br>
+          <ul>
+            <li>Espinacas</li>
+            <li>Piñones</li>
+            <li>Dátiles</li>
+            <li>Cebolla</li>
+            <li>Huevos</li>
+            <li>Aceite de oliva.</li>
+          </ul>
+          <br>
+          <h4>ELABORACIÓN.</h4>
+          <br>
+          <p>
+            Se cuecen las espinacas y aparte se sofríe la cebolla con los dátiles y los piñones añadiendo posteriormente
+            las espinacas luego batimos los huevos y se cuaja la tortilla con una pizca de sal.
+          </p>
+          <p>
+            También se puede variar en vez de tortilla, se le pone nata a las espinacas
+          </p>
+          <br>
+          <h2 id="ver3">AJILI-MÓJILI</h2>
+          <p class="blog-post-meta">January 1, 2021 by <a href="#">Mark</a></p>
+          <h4 class="blog-post-title mb-1">INGREDIENTES:</h4>
+          <br>
+          <ul>
+            <li>1KG. de patatas.</li>
+            <li>250 GR. Pimientos rojos carnosos.</li>
+            <li>2 dientes de ajo.</li>
+            <li>Vinagre.</li>
+            <li>Sal. </li>
+            <li>Orégano.</li>
+            <li>Aceite de oliva virgen picual.</li>
+          </ul>
+          <br>
+          <h4>ELABORACIÓN.</h4>
+          <br>
+          <p>
+            Se cuecen las patatas cortadas a rodajas junto a los pimientos. En un mortero se machacan los ajos, sal y un
+            poco de orégano. Se trituran las patatas y los pimientos sin piel y se le añade el aliño labrándolo con
+            aceite de oliva y un poco vinagre. Se sirve untado en rebanadas de pan.
+          </p>
+          <br>
+          <h2 id="ver4">SALMOREJO.</h2>
+          <p class="blog-post-meta">January 1, 2021 by <a href="#">Mark</a></p>
+          <h4 class="blog-post-title mb-1">INGREDIENTES:</h4>
+          <br>
+          <ul>
+            <li>Tomates.</li>
+            <li>2 ajos.</li>
+            <li>Pan.</li>
+            <li>Huevos.</li>
+            <li>Aceite de oliva</li>
+            <li>Jamón</li>
+            <li>Sal.</li>
+          </ul>
+          <br>
+          <h4>ELABORACIÓN.</h4>
+          <br>
+          <p>
+            Se moja el pan y se pelan los tomates y los ajos batiéndolo todo junto a un chorreón de aceite consiguiendo
+            un triturado suave y le añadimos la sal. Cocemos los huevos y se cortan en taquitos junto al jamón y lo
+            añadimos.
+          </p>
+          <br>
+
+
+        </article>
+        <nav class="blog-pagination" aria-label="Pagination">
+          <a class="btn btn-outline-primary rounded-pill" href="#">Older</a>
+          <a class="btn btn-outline-secondary rounded-pill disabled">Newer</a>
+        </nav>
+
+      </div>
+
+      <div class="col-md-4">
+        <div class="position-sticky" style="top: 2rem;">
+          <div class="p-4 mb-3 bg-light rounded">
+            <h4 class="fst-italic">Acerca De</h4>
+            <p class="mb-0">Descubre el maravilloso mundo de la gastronomía a través de nuestra página de recetas de
+              cocina. Aquí, nos encanta explorar sabores, ingredientes y técnicas para ayudarte a preparar platos
+              irresistibles en la comodidad de tu hogar. Desde deliciosos desayunos hasta postres tentadores, tenemos
+              algo para cada ocasión y gusto..</p>
+          </div>
+
+          <div class="p-4">
+            <h4 class="fst-italic">Archives</h4>
+            <ol class="list-unstyled mb-0">
+              <li><a href="#">March 2021</a></li>
+              <li><a href="#">February 2021</a></li>
+              <li><a href="#">January 2021</a></li>
+              <li><a href="#">December 2020</a></li>
+              <li><a href="#">November 2020</a></li>
+              <li><a href="#">October 2020</a></li>
+              <li><a href="#">September 2020</a></li>
+              <li><a href="#">August 2020</a></li>
+              <li><a href="#">July 2020</a></li>
+              <li><a href="#">June 2020</a></li>
+              <li><a href="#">May 2020</a></li>
+              <li><a href="#">April 2020</a></li>
+            </ol>
+          </div>
+
+          <div class="p-4">
+            <h4 class="fst-italic">Contácteme</h4>
+            <ol class="list-unstyled">
+              <a target="_blank" href="https://github.com/edlazo12" target="_blank" class="social-icon"><i
+                  class="fab fa-twitter">Github</i></a>
+              <br>
+              <a href="mailto:elilazogonzalez@yahoo.com" target="_blank" class="social-icon"><i
+                  class="fab fa-facebook-f">Correo</i></a>
+              <br>
+              <a href="https://edlazo12.github.io/Curriculum.Vitae.github.io/Dise%C3%B1o%20Landig%20Page%20-%20Curriculum%20Vitae/index.html"
+                target="_blank" class="social-icon"><i class="fab fa-instagram">Curriculum</i></a>
+              <br>
+              <br>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+    <footer style="background-color: #222; color: white; padding: 20px; text-align: center;">
+      <div>
+        <p>&copy; 2023 Receta de Cocina, Todos los derechos reservados.</p>
+      </div>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio Album</title>
+    <!--Incluir librerias bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+   
+</head>
+<style>
+  .card-title{
+    position: absolute;
+            top: 0px;
+            left: 0;
+            width: 100%;
+            color: white;
+            background-color: rgba(8, 8, 8, 0.5);
+            padding: 10px;
+            box-sizing: border-box;
+            text-align: center;
+  }
+
+</style>
+<body>
+  <header>
+    <div class="collapse bg-dark" id="navbarHeader">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-8 col-md-7 py-4">
+            <h4 class="text-white">About</h4>
+            <p class="text-muted">Add some information about the album below, the author, or any other background context. Make it a few sentences long so folks can pick up some informative tidbits. Then, link them off to some social networking sites or contact information.</p>
+          </div>
+          <div class="col-sm-4 offset-md-1 py-4">
+            <h4 class="text-white">Contact</h4>
+            <ul class="list-unstyled">
+              <li><a href="#" class="text-white">Follow on Twitter</a></li>
+              <li><a href="#" class="text-white">Like on Facebook</a></li>
+              <li><a href="#" class="text-white">Email me</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="navbar navbar-dark bg-dark shadow-sm">
+      <div class="container">
+        <a href="#" class="navbar-brand d-flex align-items-center">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true" class="me-2" viewBox="0 0 24 24"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg>
+          <strong>Album</strong>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+      
+      <main>
+        
+      
+        <section class="py-5 text-center container">
+          <div class="row py-lg-5">
+            <div class="col-lg-6 col-md-8 mx-auto">
+              <h1 class="fw-light">Album Naturaleza</h1>
+              <p class="lead text-muted">"Descubre nuestra cautivadora colección de imágenes que abarca una 
+                variedad de temas, desde la naturaleza hasta la arquitectura moderna. Creada por talentosos 
+                fotógrafos de todo el mundo, estas imágenes capturan momentos únicos y bellamente compuestos 
+                que te transportarán a diferentes rincones del planeta. Explora la magia de la fotografía a 
+                través de esta diversa y fascinante colección."</p>
+                <p class="lead text-muted">
+                Esta descripción invita a explorar la colección y destaca la diversidad
+                 y calidad de las imágenes, así como el talento de los fotógrafos que las crearon..</p>
+              <p>
+                <a href="#" class="btn btn-primary my-2">Principal Acción</a>
+                <a href="#" class="btn btn-secondary my-2">Acción Secundaria</a>
+              </p>
+            </div>
+          </div>
+        </section>
+      
+        <div class="album py-5 bg-light">
+          <div class="container">
+      
+    <div class="row mt-4">
+      <div class="col-md-4">
+        <div class="card">
+          <img src="img/imagen1.jpg" class="card-img-top" alt="Imagen 1" width="100px" height="250px">
+          <div class="card-body">
+            <h5 class="card-title" >Carretera con las magníficas montañas.</h5>
+            <p class="card-text">Kilómetros de Carretera que se extienden hasta donde alcanza la vista.</p>
+            <a href="img/imagen1.jpg" target="_blank" class="btn btn-sm btn-outline-secondary">Ver</a>
+            <a href="img/imagen1.jpg" download="imagen1.jpg" class="btn btn-sm btn-outline-secondary">Descargar</a>
+            <small class="text-muted"><a href="https://www.freepik.es/fotos-premium/dibujo-montana-rayos-sol-poniente-ia-generativa_39422013.htm#from_view=detail_collection">Image by wirestock</a> on Freepik</small>
+           </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img src="img/imagen2.jpg" class="card-img-top" alt="Imagen 2" width="100px" height="250px">
+          <div class="card-body">
+            <h5 class="card-title">Puesta del Sol</h5>
+            <p class="card-text"> El sol brilla intensamente en un cielo azul claro</p>
+            <a href="img/imagen2.jpg" target="_blank" class="btn btn-sm btn-outline-secondary">Ver</a>
+            <a href="img/imagen2.jpg" download="imagen2.jpg" class="btn btn-sm btn-outline-secondary">Descargar</a>
+            <small class="text-muted"><a href="https://www.freepik.es/foto-gratis/disparo-gran-angular-solo-arbol-que-crece-cielo-nublado-puesta-sol-rodeada-cesped_11342065.htm#query=paisajes&position=0&from_view=search&track=sph">Image by wirestock</a> on Freepik</small>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img src="img/imagen3.jpg" class="card-img-top" alt="Imagen 3" width="100px" height="250px">
+          <div class="card-body">
+            <h5 class="card-title">Montañas con globos aerostático</h5>
+            <p class="card-text">Un bosque mágico con árboles altos y frondosos que filtran la luz del sol. </p>
+            <a href="img/imagen3.jpg" target="_blank" class="btn btn-sm btn-outline-secondary">Ver</a>
+            <a href="img/imagen3.jpg" download="imagen3.jpg" class="btn btn-sm btn-outline-secondary">Descargar</a>
+            <small class="text-muted"><a href="https://www.freepik.es/foto-gratis/paisaje-niebla-matutina-montanas-globos-aerostaticos-al-amanecer_13180513.htm#query=paisajes&position=12&from_view=search&track=sph">Image by wirestock</a> on Freepik</small>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img src="img/imagen4.jpg" class="card-img-top" alt="Imagen 4" width="100px" height="250px">
+          <div class="card-body">
+            <h5 class="card-title">Montaña al anochecer</h5>
+            <p class="card-text">Majestuosas montañas cubiertas de nieve, tocando el cielo.</p>
+            <a href="img/imagen4.jpg" target="_blank" class="btn btn-sm btn-outline-secondary">Ver</a>
+            <a href="img/imagen4.jpg" download="imagen1.jpg" class="btn btn-sm btn-outline-secondary">Descargar</a>
+            <small class="text-muted"><a href="https://www.freepik.es/foto-gratis/montana-fuji-via-lactea-noche_10695684.htm?query=paisajes&collectionId=1452&&position=0&from_view=collections">Image by wirestock</a> on Freepik</small>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img src="img/imagen5.jpg" class="card-img-top" alt="Imagen 5" width="100px" height="250px">
+          <div class="card-body">
+            <h5 class="card-title">Llanuras</h5>
+            <p class="card-text">Un lugar de serenidad donde el aire fresco y limpio revitaliza tus sentidos.</p>
+            <a href="img/imagen5.jpg" target="_blank" class="btn btn-sm btn-outline-secondary">Ver</a>
+            <a href="img/imagen5.jpg" download="imagen1.jpg" class="btn btn-sm btn-outline-secondary">Descargar</a>
+            <small class="text-muted"><a href="https://www.freepik.es/foto-gratis/joven-excursionista-recorrido-trekking-traves-hermosas-montanas-andes-peru_17545887.htm#query=wild&position=7&from_view=search">Image by wirestock</a> on Freepik</small>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img src="img/imagen6.jpg" class="card-img-top" alt="Imagen 6" width="100px" height="250px">
+          <div class="card-body">
+            <h5 class="card-title">Montañas de Japon</h5>
+            <p class="card-text">flores de cerezo en primavera, pagoda chureito y montaña al atardecer en japón.</p>
+            <a href="img/imagen6.jpg" target="_blank" class="btn btn-sm btn-outline-secondary">Ver</a>
+            <a href="img/imagen6.jpg" download="imagen1.jpg" class="btn btn-sm btn-outline-secondary">Descargar</a>
+            <small class="text-muted"><a href="https://www.freepik.es/foto-gratis/flores-cerezo-primavera-pagoda-chureito-montana-fuji-al-atardecer-japon_10824514.htm#query=paisajes&position=48&from_view=search&track=sph">Image by wirestock</a> on Freepik</small>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img src="img/imagen7.jpg" class="card-img-top" alt="Imagen 7" width="100px" height="250px">
+          <div class="card-body">
+            <h5 class="card-title">Bosque</h5>
+            <p class="card-text">El aroma a tierra húmeda y flores silvestres llena el aire, y los cantos de pájaros crean una melodía natural.</p>
+            <a href="img/imagen7.jpg" target="_blank" class="btn btn-sm btn-outline-secondary">Ver</a>
+            <a href="img/imagen7.jpg" download="imagen1.jpg" class="btn btn-sm btn-outline-secondary">Descargar</a>
+            <small class="text-muted"><a href="https://www.freepik.es/foto-gratis/cascada-naturaleza-tailandia_13181406.htm#query=paisajes&position=7&from_view=search&track=sph">Image by wirestock</a> on Freepik</small>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img src="img/imagen8.jpg" class="card-img-top" alt="Imagen 8" width="100px" height="250px">
+          <div class="card-body">
+            <h5 class="card-title">Montaña Junto al Agua</h5>
+            <p class="card-text">Un tranquilo lago encajado entre montañas, reflejando el paisaje circundante en sus aguas serenas. </p>
+            <a href="img/imagen8.jpg" target="_blank" class="btn btn-sm btn-outline-secondary">Ver</a>
+            <a href="img/imagen8.jpg" download="imagen1.jpg" class="btn btn-sm btn-outline-secondary">Descargar</a>
+            <small class="text-muted"><a href="https://www.freepik.es/foto-gratis/muelle-lago-hallstatt-austria_17242912.htm#query=paisajes&position=26&from_view=search&track=sph">Image by wirestock</a> on Freepik</small>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+      
+      </main>
+      
+      <footer class="text-muted py-3">
+        <div class="container text-center">
+            <h4>Contáctenos</h4>
+            <div>
+              <a target="_blank" href="https://github.com/edlazo12" target="_blank" class="social-icon"><i class="fab fa-twitter">Github</i></a>
+              <br>
+                <a href="mailto:elilazogonzalez@yahoo.com" target="_blank" class="social-icon"><i class="fab fa-facebook-f">Correo</i></a>
+                <br>
+                <a href="https://edlazo12.github.io/Curriculum.Vitae.github.io/Dise%C3%B1o%20Landig%20Page%20-%20Curriculum%20Vitae/index.html" target="_blank" class="social-icon"><i class="fab fa-instagram">Curriculum</i></a>
+                <br>
+                <br>
+                
+            </div>
+        </div>
+        <footer style="background-color: #222; color: white; padding: 20px; text-align: center;">
+          <div>
+            <p>&copy; 2023 Album Naturaleza, Todos los derechos reservados.</p>
+          </div>
+      </footer>
+      
+      
+</body>
+</html>
